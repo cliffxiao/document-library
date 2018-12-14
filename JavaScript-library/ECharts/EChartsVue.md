@@ -1,7 +1,7 @@
 ECharts + Vue 折腾记
 ===
 
-> Create by **jsliang** on **2018-11-28 11:01:39**  
+>  **2018-11-28 11:01:39**  
 > Recently revised in **2018-11-30 09:03:18**
 
 <br>
@@ -41,7 +41,7 @@ ECharts + Vue 折腾记
 
 &emsp;现在是大数据和云计算的时代，所以数据可视化逐渐变成一种趋势。  
 &emsp;而 ECharts 对于制作的图表可以满足小伙伴们的创造力，它具备华丽的外衣，且实用。  
-&emsp;在这里，**jsliang** 将通过 ECharts + Vue 进行折腾。
+&emsp;在这里，** ** 将通过 ECharts + Vue 进行折腾。
 
 > 如果小伙伴们对 Vue 还不太熟，这里可能没法带你飞喔~  
 > 前置条件：[Vue](https://github.com/LiangJunrong/document-library/tree/master/JavaScript-library/Vue)、Npm、Webpack
@@ -268,7 +268,7 @@ export default {
 <br>
 
 &emsp;考虑到项目没有 UI 设计稿。那么，就需要引用一款 Vue 的 UI 框架了，偷懒用 ElementUI 吧。  
-&emsp;然后，为了使项目尽可能小巧，**jsliang** 打算按需引入 ElementUI：
+&emsp;然后，为了使项目尽可能小巧，** ** 打算按需引入 ElementUI：
 
 1. 安装 ElementUI：`npm i element-ui -S`
 2. 安装 babel-plugin-component：`npm i babel-plugin-component -D`
@@ -443,7 +443,7 @@ export default {
 <br>
 
 &emsp;有时候，一些小细节总会困惑你。  
-&emsp;在这里，**jsliang** 将贴出自己解决的小细节。  
+&emsp;在这里，** ** 将贴出自己解决的小细节。  
 &emsp;结合 `Ctrl + F` 搜索关键字喔~
 
 <br>
@@ -513,7 +513,7 @@ http://api.map.baidu.com/getscript?
 /* 
   * reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
   * The purpose of reset is not to allow default styles to be consistent across all browsers, but to reduce the potential problems of default styles.
-  * create by jsliang
+  * create by  
 */
 
 /** 清除内外边距 - clearance of inner and outer margins **/
@@ -555,13 +555,13 @@ img { border: 0; display: inline-block; width: 100%; max-width: 100%; height: au
 div, input { box-sizing: border-box; }
 
 /** 清除浮动 - clear float **/
-.jsliang-clear:after, .clear:after {
+. -clear:after, .clear:after {
   content: '\20';
   display: block;
   height: 0;
   clear: both;
 }
-.jsliang-clear, .clear {
+. -clear, .clear {
   *zoom: 1;
 }
 
@@ -587,4 +587,4 @@ import '../static/css/reset.css' /**引入样式重置 */
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

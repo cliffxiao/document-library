@@ -1,7 +1,7 @@
 2018 前端开发分享
 ===
 
-> Create by **jsliang** on **2018-11-26 08:10:27**  
+>  **2018-11-26 08:10:27**  
 > Recently revised in **2018-11-29 22:05:14**
 
 <br>
@@ -85,7 +85,7 @@
 
 <br>
 
-&emsp;很久很久很久以前，在 **jsliang** 出生的前一年，即 1994 年的时候，网景公司 (Netscape Communications) 推出了第一款浏览器：NCSAMosaic，但是它只有少数的幸运儿才能使用。
+&emsp;很久很久很久以前，在 ** ** 出生的前一年，即 1994 年的时候，网景公司 (Netscape Communications) 推出了第一款浏览器：NCSAMosaic，但是它只有少数的幸运儿才能使用。
 
 ![图](../../../public-repertory/img/other-share-2.png)
 
@@ -242,7 +242,7 @@
 
 <br>
 
-&emsp;就技术而言，JSP 与 jQuery 是天南地北的。但是，**jsliang** 个人觉得可以就内嵌 HTML 的形式与前后端分离的形式，对 JSP 与 jQuery 进行简要比较。这里的比较，仅仅因为工作中同时有涉及 JSP 与 jQuery，如有不实，望海纳指正。
+&emsp;就技术而言，JSP 与 jQuery 是天南地北的。但是，** ** 个人觉得可以就内嵌 HTML 的形式与前后端分离的形式，对 JSP 与 jQuery 进行简要比较。这里的比较，仅仅因为工作中同时有涉及 JSP 与 jQuery，如有不实，望海纳指正。
 
 &emsp;关于 JSP 与 jQuery 的学习记录：
 
@@ -437,7 +437,7 @@
 * jQuery 适用的场景：比如说一些 HTML5 的动画页面，一些需要 JavaScript 来操作页面样式的页面。
 
 &emsp;正应了那句话：“没有最好的框架，只有更适合的应用”。  
-&emsp;我们应该根据项目的需求，对技术进行不同的选取。就好比在公众号的 H5 页面上，**jsliang** 就很喜欢用 jQuery 进行操作，因为它简单粗暴好操作，在动画效果的编写上也不错；而在使用 Echarts 进行报表演示的开发中，我更喜欢使用 Vue，因为它能很简易地对后端传回的大量数据进行操作。
+&emsp;我们应该根据项目的需求，对技术进行不同的选取。就好比在公众号的 H5 页面上，** ** 就很喜欢用 jQuery 进行操作，因为它简单粗暴好操作，在动画效果的编写上也不错；而在使用 Echarts 进行报表演示的开发中，我更喜欢使用 Vue，因为它能很简易地对后端传回的大量数据进行操作。
 
 <br>
 
@@ -471,7 +471,7 @@
 
 &emsp;**事无绝对，这里仅为本人观点，实际技术选用应结合团队意见，从而找到最适合该项目的技术。**
 
-> 就 **jsliang** 本人的开发体验来说：2018 年 4 月份的毕业设计使用了 Vue 进行开发，然后相隔半年进行了微信小程序开发，发觉小程序开发比起 Vue 而言是更轻松便捷的，因为它封装了很多 API 供开发人员使用，并且它有专门的提 Bug 社区。
+> 就 ** ** 本人的开发体验来说：2018 年 4 月份的毕业设计使用了 Vue 进行开发，然后相隔半年进行了微信小程序开发，发觉小程序开发比起 Vue 而言是更轻松便捷的，因为它封装了很多 API 供开发人员使用，并且它有专门的提 Bug 社区。
 
 <br>
 
@@ -517,4 +517,4 @@
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

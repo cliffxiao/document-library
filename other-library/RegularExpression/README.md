@@ -1,7 +1,7 @@
 正则表达式
 ===
 
-> Create by **jsliang** on **2018-11-14 10:41:20**  
+>  **2018-11-14 10:41:20**  
 > Recently revised in **2018-11-19 13:12:52**
 
 <br>
@@ -15,10 +15,10 @@
 &emsp;但是，它又是强大的。正则在我眼里，就是作弊码，学会之后的应用可以大大提高你的开发效率。  
 &emsp;所以，你可以老老实实打怪，但是你用了它会觉得编程更爽快。
 
-&emsp;综上，有了 **jsliang** 编写这篇文章来记录自己所学的冲动。  
-&emsp;为此，也是灵感触发，**jsliang** 写了个 PC 小游戏（请用电脑打开网址）：
+&emsp;综上，有了 ** ** 编写这篇文章来记录自己所学的冲动。  
+&emsp;为此，也是灵感触发，** ** 写了个 PC 小游戏（请用电脑打开网址）：
 
-* **[正则小游戏地址](http://playregex.jsliang.top/)**
+* **[正则小游戏地址](http://playregex. .top/)**
 
 ![图](../../public-repertory/img/other-RegularExpression-1.gif)
 
@@ -340,7 +340,7 @@ console.log(regex.test(myNumber)); // true
 </head>
 
 <body>
-  <p>正则表达式 | <b>jsliang</b> 学习记录</p>
+  <p>正则表达式 | <b> </b> 学习记录</p>
 
   <script>
     window.onload = function () {
@@ -391,7 +391,7 @@ console.log(regex.test(myNumber)); // true
 </head>
 
 <body>
-  <p>正则表达式 | <b>jsliang</b> 学习记录</p>
+  <p>正则表达式 | <b> </b> 学习记录</p>
 
   <script>
     window.onload = function() {
@@ -468,7 +468,7 @@ console.log(reg.test(str)); // true
 </head>
 
 <body>
-  <p>正则表达式 | <b>jsliang</b> 学习记录</p>
+  <p>正则表达式 | <b> </b> 学习记录</p>
 
   <script>
     window.onload = function() {
@@ -506,7 +506,7 @@ console.log(reg.test(str)); // true
 </head>
 
 <body>
-  <p>正则表达式 | <b>jsliang</b> 学习记录</p>
+  <p>正则表达式 | <b> </b> 学习记录</p>
 
   <script>
     window.onload = function() {
@@ -530,7 +530,7 @@ console.log(reg.test(str)); // true
 &emsp;第一个判断该字符串是否以 `Cheer` 开头；  
 &emsp;第二个判断该字符串是否以 `yourself` 结尾；  
 &emsp;第三个判断该字符串是否包含 `for`。  
-&emsp;在日常工作中，经常利用该方法，判断用户输入的 `string` 里面是否包含某些文字，例如：`jsliang 是傻逼`，就需要判断替换为 `jsliang 是帅哥`，至于怎么替换敏感字，迫不及待的小伙伴们可前往 [【2.3 JS 正则方法】](#chapter-two-three) 先行了解~  
+&emsp;在日常工作中，经常利用该方法，判断用户输入的 `string` 里面是否包含某些文字，例如：`  是傻逼`，就需要判断替换为 `  是帅哥`，至于怎么替换敏感字，迫不及待的小伙伴们可前往 [【2.3 JS 正则方法】](#chapter-two-three) 先行了解~  
 
 <br>
 
@@ -666,13 +666,13 @@ console.log(re3.test(str3));  // false
 &emsp;但！  
 &emsp;这是完结吗？！  
 &emsp;不！  
-&emsp;由于 **jsliang** 时间有限，没法一一给小伙伴们介绍正则的乐趣及工作中如何使用正则提高工作效率。  
-&emsp;所以，在第二章 [【整合】](#chapter-two) 中，**jsliang** 整合网上资源，记录了一些常用的正则工具，里面有很多东西，是在这篇文章中没有涉及的，有兴趣的小伙伴可以逐一尝试加深对正则的了解。  
+&emsp;由于 ** ** 时间有限，没法一一给小伙伴们介绍正则的乐趣及工作中如何使用正则提高工作效率。  
+&emsp;所以，在第二章 [【整合】](#chapter-two) 中，** ** 整合网上资源，记录了一些常用的正则工具，里面有很多东西，是在这篇文章中没有涉及的，有兴趣的小伙伴可以逐一尝试加深对正则的了解。  
 
 &emsp;**————For the end————**  
-&emsp;在编写这篇文章中，**jsliang** 玩性大发写下了下面的游戏（请用电脑查看）：
+&emsp;在编写这篇文章中，** ** 玩性大发写下了下面的游戏（请用电脑查看）：
 
-* **游戏地址**：[天下第一武道会](http://playregex.jsliang.top/)
+* **游戏地址**：[天下第一武道会](http://playregex. .top/)
 * **代码地址**：[https://github.com/LiangJunrong/regex](https://github.com/LiangJunrong/regex)
 
 <br>
@@ -701,4 +701,4 @@ console.log(reg.test(str)); // true
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

@@ -1,7 +1,7 @@
 jQuery 工作常用解决方案
 ===
 
-> Create by **jsliang** on **2018-11-4 10:37:33**  
+>  **2018-11-4 10:37:33**  
 > Recently revised in **2018-11-4 11:43:17**
 
 <br>
@@ -281,7 +281,7 @@ img { border: 0; display: inline-block; width: 100%; max-width: 100%; height: au
 /* 
   * reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
   * The purpose of reset is not to allow default styles to be consistent across all browsers, but to reduce the potential problems of default styles.
-  * create by jsliang
+  * create by  
 */
 
 /** 清除内外边距 - clearance of inner and outer margins **/
@@ -327,13 +327,13 @@ img { border: 0; display: inline-block; width: 100%; max-width: 100%; height: au
 div, input { box-sizing: border-box; }
 
 /** 清除浮动 - clear float **/
-.jsliang-clear:after, .clear:after {
+. -clear:after, .clear:after {
     content: '\20';
     display: block;
     height: 0;
     clear: both;
 }
-.jsliang-clear, .clear {
+. -clear, .clear {
     *zoom: 1;
 }
 
@@ -411,20 +411,20 @@ ul{
 
 <br>
 
-## 3.10 jsliang的弹窗
+## 3.10  的弹窗
 
 &emsp;如果希望弹窗不固定大小，在手机端或者 PC 端都能使用，推荐使用百分比配置。
 
 > *.html
 
 ```
-<div class="jsliang-prompt">
-  <div class="jsliang-mask"></div>
-  <div class="jsliang-alert">
+<div class=" -prompt">
+  <div class=" -mask"></div>
+  <div class=" -alert">
     <img src="./images/error.png" alt="error">
-    <p class="jsliang-tips">该板块暂未开放~</p>
+    <p class=" -tips">该板块暂未开放~</p>
     <p>
-      <a href="javascript:void(0)" class="jsliang-get-it" id="jsliang-get-it">好的，我知道了</a>
+      <a href="javascript:void(0)" class=" -get-it" id=" -get-it">好的，我知道了</a>
     </p>
   </div>
 </div>
@@ -436,10 +436,10 @@ ul{
 
 ```
 /** 弹窗 - alert **/
-.jsliang-prompt {
+. -prompt {
   display: none;
 }
-.jsliang-mask {
+. -mask {
   z-index: 998;
   position: fixed;
   top: 0;
@@ -451,7 +451,7 @@ ul{
   -ms-filter: "alpha(opacity=30)";
   opacity: .3;
 }
-.jsliang-alert {
+. -alert {
   z-index: 999;
   position: fixed;
   top: 30%;
@@ -464,14 +464,14 @@ ul{
   border-radius: 15px;
   text-align: center;
 }
-.jsliang-alert img {
+. -alert img {
   width: 120px;
   height: 83.8px;
 }
-.jsliang-alert p {
+. -alert p {
   margin-top: 10px;
 }
-.jsliang-get-it {
+. -get-it {
   color: #fff;
   background: #5bc0de;
   display: inline-block;
@@ -489,7 +489,7 @@ ul{
   vertical-align: middle;
   text-decoration: none;
 }
-.jsliang-get-it:hover {
+. -get-it:hover {
   background: #31b0d5;
 }
 /* end */
@@ -764,4 +764,4 @@ table thead, tbody tr {
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

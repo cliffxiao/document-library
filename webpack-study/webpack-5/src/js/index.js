@@ -9,7 +9,7 @@ function component() {
     var element = document.createElement('div');
 
     // 调用Lodash的_全局变量
-    element.innerHTML = _.join(['Hello', 'webpack', '，我叫jsliang.<br>'], ' ');
+    element.innerHTML = _.join(['Hello', 'webpack', '，我叫 .<br>'], ' ');
     element.classList.add('hello');
 
     // 将图片添加到div中

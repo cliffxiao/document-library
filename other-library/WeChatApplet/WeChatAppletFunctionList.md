@@ -1,7 +1,7 @@
 微信小程序之奇技淫巧
 ===
 
-> Create by **jsliang** on **2018-11-21 20:46:36**  
+>  **2018-11-21 20:46:36**  
 > Recently revised in **2018-11-25 00:24:14**
 
 <br>
@@ -62,7 +62,7 @@
 
 &emsp;写文章无形中也会磨炼自己的表达能力。  
 &emsp;这周 (`2018-11-19`) 在开发微信小程序的定制 **通讯录** 时，突然发现 **[微信小程序 bug 集中营](https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletBug.md)** 这篇文章不能再继续写了，因为它变得 **臃肿**、**丑陋** 且 **难维护**，就连我这个写作人都感慨：如果没有 `Ctrl + F` ，以及我的 **目录** 写得还不错，我真心不想再翻这篇文章。  
-&emsp;为此，**jsliang** 单独开了一篇文章：**微信小程序功能清单**。用来记录小程序各种功能的实现，例如布局、通讯录、底部导航栏……  
+&emsp;为此，** ** 单独开了一篇文章：**微信小程序功能清单**。用来记录小程序各种功能的实现，例如布局、通讯录、底部导航栏……  
 &emsp;然后嘛，为了能吸引小伙伴点进来瞅瞅，起个标新立异的标题吧：**微信小程序之奇技淫巧**。
 
 <br>
@@ -330,7 +330,7 @@ align-content: flex-start | flex-end | center | space-between | space-around | s
   <view class="mixed-layout-floor-two">
     <view class="mixed-layout-floor-two-left">
       <text class="mixed-layout-floor-two-left-title">微信小程序之奇技淫巧</text>
-      <text class="mixed-layout-floor-two-left-author" url="https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletFunctionList.md">作者：jsliang</text>
+      <text class="mixed-layout-floor-two-left-author" url="https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletFunctionList.md">作者： </text>
     </view>
     <view class="mixed-layout-floor-two-right">
       <navigator>查看详情</navigator>
@@ -989,7 +989,7 @@ Page({
 ```
 
 &emsp;到此，我们就实现了搜索功能。尽管它还有点小 `bug`，就是不停上拉的时候，它会重复地加载一条数据。  
-&emsp;在实际项目中，**jsliang** 会定义一个 `searchNoData` 来判断接口是否还在返回数据，如果它不再返回数据，那么通过判断 `searchNoData == true` 来禁止继续加载。  
+&emsp;在实际项目中，** ** 会定义一个 `searchNoData` 来判断接口是否还在返回数据，如果它不再返回数据，那么通过判断 `searchNoData == true` 来禁止继续加载。  
 &emsp;这样，我们就完美搞定了搜索功能的实现。
 
 <br>
@@ -1233,7 +1233,7 @@ Page({
 
 &emsp;然而，逐一尝试，你会发现，上面辣么多弹窗，没有一种符合你的需求的！所以，咱要画一个属于自己的弹窗：
 
-&emsp;**首先**，咱在 `part6` 中新增两个层：遮罩层 `jsliang-mask` 和弹窗内容 `jsliang-alert`。  
+&emsp;**首先**，咱在 `part6` 中新增两个层：遮罩层 ` -mask` 和弹窗内容 ` -alert`。  
 &emsp;**然后**，往弹窗内容中编写我们需要的标题、 `input` 输入框以及 `text` 按钮。  
 &emsp;**最后**，我们逐一细化编写代码。
 
@@ -1245,21 +1245,21 @@ Page({
 <!-- part6 - 新增弹窗 -->
 <view wx:if="{{addModel}}" class="add-prompt">
   <!-- 遮罩层 -->
-  <view class="jsliang-mask" bindtap='showAdd'></view>
+  <view class=" -mask" bindtap='showAdd'></view>
   <!-- 弹窗内容 -->
-  <view class="jsliang-alert">
+  <view class=" -alert">
     <!-- 标题 -->
-    <view class="jsliang-alert-title">
+    <view class=" -alert-title">
       <text>添加成员</text>
-      <text class="jsliang-alert-title-close" bindtap='showAdd'>×</text>
+      <text class=" -alert-title-close" bindtap='showAdd'>×</text>
     </view>
     <!-- 输入内容 -->
-    <view class="jsliang-alert-content">
-      <input type="text" placeholder='请输入姓名' placeholder-class='jsliang-alert-content-user-name-placeholder'></input>
-      <input type="text" placeholder='请输入电话号码' placeholder-class='jsliang-alert-content-user-phone-placeholder'></input>
+    <view class=" -alert-content">
+      <input type="text" placeholder='请输入姓名' placeholder-class=' -alert-content-user-name-placeholder'></input>
+      <input type="text" placeholder='请输入电话号码' placeholder-class=' -alert-content-user-phone-placeholder'></input>
     </view>
     <!-- 确定 -->
-    <view class="jsliang-alert-submit">
+    <view class=" -alert-submit">
       <text bindtap='addConfirm'>添加</text>
     </view>
   </view>
@@ -1274,7 +1274,7 @@ Page({
 
 ```
 /* 弹窗-添加成员 */
-.jsliang-mask {
+. -mask {
   z-index: 998;
   position: fixed;
   top: 0;
@@ -1286,7 +1286,7 @@ Page({
   -ms-filter: "alpha(opacity=90)";
   opacity: 0.9;
 }
-.jsliang-alert {
+. -alert {
   z-index: 999;
   position: fixed;
   top: 15%;
@@ -1299,7 +1299,7 @@ Page({
 }
 
 /* 弹窗标题 */
-.jsliang-alert-title {
+. -alert-title {
   height: 120rpx;
   line-height: 120rpx;
   color: #333333;
@@ -1310,7 +1310,7 @@ Page({
   position: relative;
   border-radius: 15rpx;
 }
-.jsliang-alert-title-close {
+. -alert-title-close {
   display: inline-block;
   color: #999999;
   position: absolute;
@@ -1318,23 +1318,23 @@ Page({
   right: 40rpx;
 }
 /* 弹窗内容 */
-.jsliang-alert-content {
+. -alert-content {
   padding: 0 70rpx;
 }
-.jsliang-alert-content input {
+. -alert-content input {
   height: 120rpx;
   line-height: 120rpx;
   font-size: 30rpx;
   border-bottom: 1rpx solid #e6e6e6;
 }
-.jsliang-alert-content-user-name-placeholder, .jsliang-alert-content-user-phone-placeholder {
+. -alert-content-user-name-placeholder, . -alert-content-user-phone-placeholder {
   font-size: 30rpx;
   color: #b6b6b6;
 }
-.jsliang-alert-content-user-phone {
+. -alert-content-user-phone {
   color: rgb(238, 227, 227);
 }
-.jsliang-alert-submit {
+. -alert-submit {
   font-size: 30rpx;
   margin: 60rpx auto;
   text-align: center;
@@ -1665,21 +1665,21 @@ showAdd(e) {
 <!-- part6 - 新增弹窗 -->
 <view wx:if="{{addModel}}" class="add-prompt">
   <!-- 遮罩层 -->
-  <view class="jsliang-mask" bindtap='showAdd'></view>
+  <view class=" -mask" bindtap='showAdd'></view>
   <!-- 弹窗内容 -->
-  <view class="jsliang-alert">
+  <view class=" -alert">
     <!-- 标题 -->
-    <view class="jsliang-alert-title">
+    <view class=" -alert-title">
       <text>添加成员</text>
-      <text class="jsliang-alert-title-close" bindtap='showAdd'>×</text>
+      <text class=" -alert-title-close" bindtap='showAdd'>×</text>
     </view>
     <!-- 输入内容 -->
-    <view class="jsliang-alert-content">
-      <input type="text" placeholder='请输入姓名' placeholder-class='jsliang-alert-content-user-name-placeholder' name="addUserName" bindinput='getAddUserName' maxlength='11' value="{{addUserName}}"></input>
-      <input type="text" placeholder='请输入电话号码' placeholder-class='jsliang-alert-content-user-phone-placeholder' name="addUserPhone" bindinput='getAddUserPhone' maxlength='11' value="{{addUserPhone}}"></input>
+    <view class=" -alert-content">
+      <input type="text" placeholder='请输入姓名' placeholder-class=' -alert-content-user-name-placeholder' name="addUserName" bindinput='getAddUserName' maxlength='11' value="{{addUserName}}"></input>
+      <input type="text" placeholder='请输入电话号码' placeholder-class=' -alert-content-user-phone-placeholder' name="addUserPhone" bindinput='getAddUserPhone' maxlength='11' value="{{addUserPhone}}"></input>
     </view>
     <!-- 确定 -->
-    <view class="jsliang-alert-submit" bindtap='addConfirm'>
+    <view class=" -alert-submit" bindtap='addConfirm'>
       <text>添加</text>
     </view>
   </view>
@@ -1694,7 +1694,7 @@ showAdd(e) {
 
 ```
 /* 弹窗-添加成员 */
-.jsliang-mask {
+. -mask {
   z-index: 998;
   position: fixed;
   top: 0;
@@ -1706,7 +1706,7 @@ showAdd(e) {
   -ms-filter: "alpha(opacity=90)";
   opacity: 0.9;
 }
-.jsliang-alert {
+. -alert {
   z-index: 999;
   position: fixed;
   top: 15%;
@@ -1719,7 +1719,7 @@ showAdd(e) {
 }
 
 /* 弹窗标题 */
-.jsliang-alert-title {
+. -alert-title {
   height: 120rpx;
   line-height: 120rpx;
   color: #333333;
@@ -1730,7 +1730,7 @@ showAdd(e) {
   position: relative;
   border-radius: 15rpx;
 }
-.jsliang-alert-title-close {
+. -alert-title-close {
   display: inline-block;
   color: #999999;
   position: absolute;
@@ -1738,23 +1738,23 @@ showAdd(e) {
   right: 40rpx;
 }
 /* 弹窗内容 */
-.jsliang-alert-content {
+. -alert-content {
   padding: 0 70rpx;
 }
-.jsliang-alert-content input {
+. -alert-content input {
   height: 120rpx;
   line-height: 120rpx;
   font-size: 30rpx;
   border-bottom: 1rpx solid #e6e6e6;
 }
-.jsliang-alert-content-user-name-placeholder, .jsliang-alert-content-user-phone-placeholder {
+. -alert-content-user-name-placeholder, . -alert-content-user-phone-placeholder {
   font-size: 30rpx;
   color: #b6b6b6;
 }
-.jsliang-alert-content-user-phone {
+. -alert-content-user-phone {
   color: rgb(238, 227, 227);
 }
-.jsliang-alert-submit {
+. -alert-submit {
   font-size: 30rpx;
   margin: 60rpx auto;
   text-align: center;
@@ -1943,21 +1943,21 @@ Page({
 <!-- part7 - 修改弹窗 -->
 <view wx:if="{{editModel}}" class="edit-prompt">
   <!-- 遮罩层 -->
-  <view class="jsliang-mask" bindtap='showEdit'></view>
+  <view class=" -mask" bindtap='showEdit'></view>
   <!-- 弹窗内容 -->
-  <view class="jsliang-alert">
+  <view class=" -alert">
     <!-- 标题 -->
-    <view class="jsliang-alert-title">
+    <view class=" -alert-title">
       <text>修改成员</text>
-      <text class="jsliang-alert-title-close" bindtap='showEdit'>×</text>
+      <text class=" -alert-title-close" bindtap='showEdit'>×</text>
     </view>
     <!-- 输入内容 -->
-    <view class="jsliang-alert-content">
-      <input type="text" placeholder='请输入姓名' placeholder-class='jsliang-alert-content-user-name-placeholder' name="editUserName" bindinput='getEditUserName' maxlength='11' value="{{editNewUserName}}"></input>
-      <input type="text" class="input-forbid" placeholder='请输入电话号码' placeholder-class='jsliang-alert-content-user-phone-placeholder' name="editUserPhone" bindinput='getEditUserPhone' maxlength='11' value="{{editUserPhone}}" disabled="disabled"></input>
+    <view class=" -alert-content">
+      <input type="text" placeholder='请输入姓名' placeholder-class=' -alert-content-user-name-placeholder' name="editUserName" bindinput='getEditUserName' maxlength='11' value="{{editNewUserName}}"></input>
+      <input type="text" class="input-forbid" placeholder='请输入电话号码' placeholder-class=' -alert-content-user-phone-placeholder' name="editUserPhone" bindinput='getEditUserPhone' maxlength='11' value="{{editUserPhone}}" disabled="disabled"></input>
     </view>
     <!-- 确定 -->
-    <view class="jsliang-alert-submit" bindtap='editConfirm'>
+    <view class=" -alert-submit" bindtap='editConfirm'>
       <text>修改</text>
     </view>
   </view>
@@ -1972,7 +1972,7 @@ Page({
 
 ```
 /* 弹窗-添加成员 */
-.jsliang-mask {
+. -mask {
   z-index: 998;
   position: fixed;
   top: 0;
@@ -1984,7 +1984,7 @@ Page({
   -ms-filter: "alpha(opacity=90)";
   opacity: 0.9;
 }
-.jsliang-alert {
+. -alert {
   z-index: 999;
   position: fixed;
   top: 15%;
@@ -1997,7 +1997,7 @@ Page({
 }
 
 /* 弹窗标题 */
-.jsliang-alert-title {
+. -alert-title {
   height: 120rpx;
   line-height: 120rpx;
   color: #333333;
@@ -2008,7 +2008,7 @@ Page({
   position: relative;
   border-radius: 15rpx;
 }
-.jsliang-alert-title-close {
+. -alert-title-close {
   display: inline-block;
   color: #999999;
   position: absolute;
@@ -2016,23 +2016,23 @@ Page({
   right: 40rpx;
 }
 /* 弹窗内容 */
-.jsliang-alert-content {
+. -alert-content {
   padding: 0 70rpx;
 }
-.jsliang-alert-content input {
+. -alert-content input {
   height: 120rpx;
   line-height: 120rpx;
   font-size: 30rpx;
   border-bottom: 1rpx solid #e6e6e6;
 }
-.jsliang-alert-content-user-name-placeholder, .jsliang-alert-content-user-phone-placeholder {
+. -alert-content-user-name-placeholder, . -alert-content-user-phone-placeholder {
   font-size: 30rpx;
   color: #b6b6b6;
 }
-.jsliang-alert-content-user-phone {
+. -alert-content-user-phone {
   color: rgb(238, 227, 227);
 }
-.jsliang-alert-submit {
+. -alert-submit {
   font-size: 30rpx;
   margin: 60rpx auto;
   text-align: center;
@@ -2334,7 +2334,7 @@ Page({
 
 <br>
 
-&emsp;写到这里，**jsliang** 终于可以松一口气了，咱离胜利不远了~  
+&emsp;写到这里，** ** 终于可以松一口气了，咱离胜利不远了~  
 &emsp;现在，我们实现正常情况下的不断下拉加载：
 
 &emsp;正如我们在 **搜索功能** 实现章节中提及到的，我们分三种上拉模式：**正常模式上拉**、**搜索模式上拉**、**拼音模式上拉**：
@@ -3248,12 +3248,12 @@ onReachBottom: function () {
 <br>
 
 &emsp;天下大势，分久必合，合久必分。  
-&emsp;写到这里，我们的通讯录已然完结，在此附上 **jsliang** 的代码地址：[项目地址](https://github.com/LiangJunrong/WeChatApplet)  
+&emsp;写到这里，我们的通讯录已然完结，在此附上 ** ** 的代码地址：[项目地址](https://github.com/LiangJunrong/WeChatApplet)  
 &emsp;然而，这是结束吗？并不是，我们的通讯录，还有个功能未实现：
 
 &emsp;**如何在新增、删除的时候，对新增的字母进行排序，并导航到具体位置？**
 
-&emsp;在工作项目的开发中，**jsliang** 曾想到将新增的中文昵称转换为拼音，然后通过二分查找法，找到对应的位置并进行插入……  
+&emsp;在工作项目的开发中，** ** 曾想到将新增的中文昵称转换为拼音，然后通过二分查找法，找到对应的位置并进行插入……  
 &emsp;但是，正印了那句话：**我的能力，可以造火箭，我却只有敲钉子的时间！**  
 &emsp;时间是一切程序猿的杀手，新增排序，咱们，有缘再会！
 
@@ -3265,15 +3265,15 @@ onReachBottom: function () {
 
 <br>
 
-&emsp;不定期更新，详情可关注 **jsliang** 的 [GitHub 地址](https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletFunctionList.md)  
+&emsp;不定期更新，详情可关注 ** ** 的 [GitHub 地址](https://github.com/LiangJunrong/document-library/blob/master/other-library/WeChatApplet/WeChatAppletFunctionList.md)  
 &emsp;最后的最后，奉上上面实例中的地址：  
 
 &emsp;[项目地址](https://github.com/LiangJunrong/WeChatApplet)
 
-&emsp;撰文不易，如果文章对小伙伴有帮助，希望小伙伴们给勤劳敲代码、辛苦撰文的 **jsliang** 进行微信打赏，谢谢~
+&emsp;撰文不易，如果文章对小伙伴有帮助，希望小伙伴们给勤劳敲代码、辛苦撰文的 ** ** 进行微信打赏，谢谢~
 
 ![图](../../public-repertory/img/seek-reward.png)
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

@@ -1,7 +1,7 @@
 Vue + Koa2 + MongoDB 搭建商城
 ===
 
-> Create by **jsliang** on **2018-10-25 15:14:00**  
+>  **2018-10-25 15:14:00**  
 > Recently revised in **2018-10-28 18:58:21**
 
 <br>
@@ -24,7 +24,7 @@ Vue + Koa2 + MongoDB 搭建商城
 
 &emsp;值得注意的是，你在这里看到的，不是从无到有的开发过程，即：这不是一篇手把手带你 0 基础搞定一切的文章。  
 &emsp;细瞧代码片刻，竟无语凝噎，唯有泪千行，妈妈我不知道怎么跟小伙伴们讲啊！前端代码涉及知识点太多了~  
-&emsp;但，文章篇幅会非常详细，**jsliang** 会尽可能地提供相应的开发思路，如果你在阅读这篇文章的过程中，发现某些无法看懂，请自行 `百度` 或者 `Google` 或者在 `QQ 群` @ 我。这就好比咱要做一件坏事，**jsliang** 为你提供了作案思路和作案工具，还有外援([QQ 群 798961601](https://jq.qq.com/?_wv=1027&k=5bSk4rs))，相信小伙伴们在自己的努力下，会收获不一样的精彩。
+&emsp;但，文章篇幅会非常详细，** ** 会尽可能地提供相应的开发思路，如果你在阅读这篇文章的过程中，发现某些无法看懂，请自行 `百度` 或者 `Google` 或者在 `QQ 群` @ 我。这就好比咱要做一件坏事，** ** 为你提供了作案思路和作案工具，还有外援([QQ 群 798961601](https://jq.qq.com/?_wv=1027&k=5bSk4rs))，相信小伙伴们在自己的努力下，会收获不一样的精彩。
 
 &emsp;推荐通过 `目录` 以及使用 `返回目录` 按钮，获得更好的阅读体验。
 
@@ -32,7 +32,7 @@ Vue + Koa2 + MongoDB 搭建商城
 
 <br>
 
-&emsp;**如果你对文章的一些章节存在疑惑，请留言或者私聊 jsliang 提出来，jsliang 在自己理解的基础上尽可能为你解答，因为 jsliang 在 Vue 某些方面的理解，是远远不及一些有丰富开发经验的 Vuer 的。**
+&emsp;**如果你对文章的一些章节存在疑惑，请留言或者私聊   提出来，  在自己理解的基础上尽可能为你解答，因为   在 Vue 某些方面的理解，是远远不及一些有丰富开发经验的 Vuer 的。**
 
 <br>
 
@@ -100,10 +100,10 @@ Vue + Koa2 + MongoDB 搭建商城
 
 <br>
 
-&emsp;**下载代码**：代码目前在 **jsliang** 的 **unfineshed-code** 仓库中，等这篇文章完结了会单独开一个仓库以供下载，如果你想即刻拥有原始资料，那就点击链接加 QQ 群拿资料吧：[798961601](https://jq.qq.com/?_wv=1027&k=5bSk4rs)。  
-&emsp;我是 **jsliang**，我在天书世界等你，噢，不是……  
-&emsp;我是 **jsliang**，想要资料就来砍我，哦，不是……  
-&emsp;我是 **jsliang**，我在 **jsliang** 资料群等你~  
+&emsp;**下载代码**：代码目前在 ** ** 的 **unfineshed-code** 仓库中，等这篇文章完结了会单独开一个仓库以供下载，如果你想即刻拥有原始资料，那就点击链接加 QQ 群拿资料吧：[798961601](https://jq.qq.com/?_wv=1027&k=5bSk4rs)。  
+&emsp;我是 ** **，我在天书世界等你，噢，不是……  
+&emsp;我是 ** **，想要资料就来砍我，哦，不是……  
+&emsp;我是 ** **，我在 ** ** 资料群等你~  
 
 <br>
 
@@ -792,4 +792,4 @@ export function toMoney(money = 0){
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.com/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.com/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

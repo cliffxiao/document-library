@@ -2,7 +2,7 @@ webpack学习
 ======
 
 ## 说明
-一切尽在jsliang-webpack遨游.doc，想学习的小伙伴对着练习一遍，对webpack就有初略映像啦！上面还有个人学习文档，可以对着看文档； 然后jsliang在 <a href="https://github.com/LiangJunrong/webpack-study">webpack-MPA-config</a> 上做了jsliang个人的多页面配置，后续会持续优化，觉得可以的小伙伴帮忙给这两个项目点个star，码字不易，谢谢~  
+一切尽在 -webpack遨游.doc，想学习的小伙伴对着练习一遍，对webpack就有初略映像啦！上面还有个人学习文档，可以对着看文档； 然后 在 <a href="https://github.com/LiangJunrong/webpack-study">webpack-MPA-config</a> 上做了 个人的多页面配置，后续会持续优化，觉得可以的小伙伴帮忙给这两个项目点个star，码字不易，谢谢~  
 
 ## 运行方式
 · 安装依赖包：npm i  

@@ -1,7 +1,7 @@
 Vue Router
 ===
 
-> Create by **jsliang** on **2018-11-8 13:39:39**  
+>  **2018-11-8 13:39:39**  
 > Recently revised in **2018-11-8 13:39:43**
 
 <br>
@@ -137,7 +137,7 @@ Vue Router
 &emsp;最后，我们通过第 7 步的操作，在 `new Vue` 中使用 `router`，从而做到 SPA 页面路由的使用。  
 
 &emsp;那么，他们是怎么显示的呢？  
-&emsp;我们在展示的页面后面敲上 `/login`，页面就会加载 `Login` 子组件。例如 **jsliang** 的就是 `http://127.0.0.1:8080/#/login`。  
+&emsp;我们在展示的页面后面敲上 `/login`，页面就会加载 `Login` 子组件。例如 ** ** 的就是 `http://127.0.0.1:8080/#/login`。  
 &emsp;此刻页面显示为：
 
 ![图](../../public-repertory/img/js-vue-basic-learning-17.png)
@@ -438,7 +438,7 @@ Vue Router
       template: `
         <div>
           <router-link :to="{ name: 'login', query: { id: 1 } }">登录</router-link>
-          <router-link :to="{ name: 'register', params:{ name: 'jsliang' } }">注册</router-link>
+          <router-link :to="{ name: 'register', params:{ name: ' ' } }">注册</router-link>
           <router-view></router-view>
         </div>
       `
@@ -486,26 +486,26 @@ Vue Router
 
 * params 传参：
 
-&emsp;首先，在第 6 步的 `:to` 中，我们通过 `<router-link :to="{ name: 'register', params:{ name: 'jsliang' } }">注册</router-link>`，设置传参的值为 `name=jsliang`。  
+&emsp;首先，在第 6 步的 `:to` 中，我们通过 `<router-link :to="{ name: 'register', params:{ name: ' ' } }">注册</router-link>`，设置传参的值为 `name= `。  
 &emsp;接着，在第 5 步中，给它的 `path` 预留个 `name` 的插槽：` path: '/myRegister/:name'`  
 &emsp;然后，在第 3 步的 `Login` 组件中定义 `created`，打印出它的对象及其参数：
 
 ```
-{name: "register", meta: {…}, path: "/myRegister/jsliang", hash: "", query: {…}, …}
+{name: "register", meta: {…}, path: "/myRegister/ ", hash: "", query: {…}, …}
 
-{name: "jsliang"}
+{name: " "}
 ```
 
-&emsp;最后，在页面中路径显示为：`http://127.0.0.1:8080/#/myRegister/jsliang`
+&emsp;最后，在页面中路径显示为：`http://127.0.0.1:8080/#/myRegister/ `
 
 <br>
 
 &emsp;当然，小伙伴可能会考虑到传多个参数：
 
-> query 传多个参数代码片段：`http://127.0.0.1:8080/#/myLogin?id=1&name=jsliang`
+> query 传多个参数代码片段：`http://127.0.0.1:8080/#/myLogin?id=1&name= `
 
 ```
-<router-link :to="{ name: 'login', query: { id: 1, name: 'jsliang' } }">登录</router-link>
+<router-link :to="{ name: 'login', query: { id: 1, name: ' ' } }">登录</router-link>
 ```
 
 <br>
@@ -843,4 +843,4 @@ template: `
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

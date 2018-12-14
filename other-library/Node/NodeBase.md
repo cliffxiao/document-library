@@ -1,7 +1,7 @@
 Node 基础
 ===
 
-> Create by **jsliang** on **2018-11-8 13:42:42**  
+>  **2018-11-8 13:42:42**  
 > Recently revised in **2018-12-11 08:03:37**
 
 <br>
@@ -39,7 +39,7 @@ Node 基础
 
 &emsp;本文主要目的：
 
-1. 整合 Node 基础，加深 **jsliang** 对 Node 的学习了解并且方便复习。纯属个人参考，如需疑问还请在 QQ 群：`798961601` 中咨询。  
+1. 整合 Node 基础，加深 ** ** 对 Node 的学习了解并且方便复习。纯属个人参考，如需疑问还请在 QQ 群：`798961601` 中咨询。  
 2. 整合 Node 工具，方便查找在 Node 开发中，有哪些工具比较有利于开发。
 
 &emsp;参考资料：
@@ -186,9 +186,9 @@ http.createServer(function (req, res) {
 
   // 4. 获取服务器请求
   /**
-   * 访问地址是：http://localhost:3000/?userName=jsliang&userAge=23
+   * 访问地址是：http://localhost:3000/?userName= &userAge=23
    * 如果你执行 console.log(req.url)，它将执行两次，分别返回下面的信息：
-   * /  ?userName=jsliang&userAge=23
+   * /  ?userName= &userAge=23
    * /  /favicon.ico
    * 这里为了防止重复执行，所以排除 req.url == /favicon.ico 的情况
    */
@@ -211,14 +211,14 @@ http.createServer(function (req, res) {
      *   port: null,
      *   hostname: null,
      *   hash: null,
-     *   search: '?userName=jsliang&userAge=23',
-     *   query: { userName: 'jsliang', userAge: '23' },
+     *   search: '?userName= &userAge=23',
+     *   query: { userName: ' ', userAge: '23' },
      *   pathname: '/',
-     *   path: '/?userName=jsliang&userAge=23',
-     *   href: '/?userName=jsliang&userAge=23' }
+     *   path: '/?userName= &userAge=23',
+     *   href: '/?userName= &userAge=23' }
      */
 
-    console.log(result.query.userName); // jsliang
+    console.log(result.query.userName); //  
 
     console.log(result.query.userAge); // 23
   }
@@ -279,14 +279,14 @@ http.createServer(function (req, res) {
 }).listen(3000);
 ```
 
-&emsp;**最后**，我们访问我们给出的地址：`http://localhost:3000/?userName=jsliang&userAge=23`，并通过它查看 `url` 的 `parse` 模块怎么用，输出啥：
+&emsp;**最后**，我们访问我们给出的地址：`http://localhost:3000/?userName= &userAge=23`，并通过它查看 `url` 的 `parse` 模块怎么用，输出啥：
 
 ```
 // 4. 获取服务器请求
 /**
-  * 访问地址是：http://localhost:3000/?userName=jsliang&userAge=23
+  * 访问地址是：http://localhost:3000/?userName= &userAge=23
   * 如果你执行 console.log(req.url)，它将执行两次，分别返回下面的信息：
-  * /  ?userName=jsliang&userAge=23
+  * /  ?userName= &userAge=23
   * /  /favicon.ico
   * 这里为了防止重复执行，所以排除 req.url == /favicon.ico 的情况
   */
@@ -309,14 +309,14 @@ if(req.url != "/favicon.ico") {
     *   port: null,
     *   hostname: null,
     *   hash: null,
-    *   search: '?userName=jsliang&userAge=23',
-    *   query: { userName: 'jsliang', userAge: '23' },
+    *   search: '?userName= &userAge=23',
+    *   query: { userName: ' ', userAge: '23' },
     *   pathname: '/',
-    *   path: '/?userName=jsliang&userAge=23',
-    *   href: '/?userName=jsliang&userAge=23' }
+    *   path: '/?userName= &userAge=23',
+    *   href: '/?userName= &userAge=23' }
     */
 
-  console.log(result.query.userName); // jsliang
+  console.log(result.query.userName); //  
 
   console.log(result.query.userAge); // 23
 }
@@ -430,7 +430,7 @@ console.log(url.format({
 5. `resolve` 的使用：
 
 ```
-console.log(url.resolve("http://www.baidu.com/jsliang", "梁峻荣"));
+console.log(url.resolve("http://www.baidu.com/ ", "梁峻荣"));
 
 // Console：
 // http://www.baidu.com/梁峻荣
@@ -483,7 +483,7 @@ console.log(url.resolve("http://www.baidu.com/jsliang", "梁峻荣"));
 
 &emsp;**方法一**：
 
-&emsp;首先，我们新建 `03_CommonJS.js`、`03_tool-add.js`、`node_modules/03_tool-multiply.js`、`node_modules/jsliang-module/tools.js` 这 4 个文件/文件夹。  
+&emsp;首先，我们新建 `03_CommonJS.js`、`03_tool-add.js`、`node_modules/03_tool-multiply.js`、`node_modules/ -module/tools.js` 这 4 个文件/文件夹。  
 &emsp;其中 `package.json` 我们暂且不理会，稍后会讲解它如何自动生成。
 
 &emsp;在 `03_tool-add.js` 中：
@@ -514,8 +514,8 @@ var tools = {
  */
 
 // exports 使用方法
-// var str = "jsliang is very good!";
-// exports.str = str; // { str: 'jsliang is very good!' }
+// var str = "  is very good!";
+// exports.str = str; // { str: '  is very good!' }
 
 // module.exports 使用方法
 module.exports = tools;
@@ -598,9 +598,9 @@ console.log(tools2.multiply(1, 2, 3, 4));
 
 &emsp;**方法三**：
 
-&emsp;如果全部单个文件丢在 `node_modules` 上，它会显得杂乱无章，所以我们应该定义个自己的模块：`jsliang-module`，然后将我们的 `tools.js` 存放在该目录中：
+&emsp;如果全部单个文件丢在 `node_modules` 上，它会显得杂乱无章，所以我们应该定义个自己的模块：` -module`，然后将我们的 `tools.js` 存放在该目录中：
 
-> jsliang-module/tools.js
+>  -module/tools.js
 
 ```
 var tools = {
@@ -626,11 +626,11 @@ module.exports = tools;
 <br>
 
 &emsp;这样，我们就定义好了自己的工具库。  
-&emsp;但是，如果我们通过 `var tools3 = require('jsliang-module');` 去导入，会发现它报 `error` 了，所以，我们应该在 `jsliang-module` 目录下，通过下面命令行生成一个 `package.json`
+&emsp;但是，如果我们通过 `var tools3 = require(' -module');` 去导入，会发现它报 `error` 了，所以，我们应该在 ` -module` 目录下，通过下面命令行生成一个 `package.json`
 
-> PS E:\MyWeb\node_modules\jsliang-module> npm init --yes
+> PS E:\MyWeb\node_modules\ -module> npm init --yes
 
-&emsp;这样，在 `jsliang-module` 中就有了 `package.json`。  
+&emsp;这样，在 ` -module` 中就有了 `package.json`。  
 &emsp;而我们在 `03_CommonJS.js` 就可以引用它了：
 
 > 03_CommonJS.js
@@ -645,12 +645,12 @@ var tools2 = require('03_tool-multiply');
 
 /**
  * 通过 package.json 来引用文件
- * 1. 通过在 jsliang-module 中 npm init --yes 来生成 package.json 文件
+ * 1. 通过在  -module 中 npm init --yes 来生成 package.json 文件
  * 2. package.json 文件中告诉了程序入口文件为 ："main": "tools.js",
- * 3. Node 通过 require 查找 jsliang-module，发现它有个 package.json
+ * 3. Node 通过 require 查找  -module，发现它有个 package.json
  * 4. Node 执行 tools.js 文件
  */
-var tools3 = require('jsliang-module');
+var tools3 = require(' -module');
 
 http.createServer(function (req, res) {
 
@@ -895,7 +895,7 @@ let fs = require('fs');
  * · flag (String) 默认值 'w'。
  * callback { Function } 回调，传递一个异常参数 err。
  */
-fs.writeFile('index.js', 'Hello jsliang', (err) => {
+fs.writeFile('index.js', 'Hello  ', (err) => {
   if(err) {
     console.log(err);
     return false;
@@ -905,7 +905,7 @@ fs.writeFile('index.js', 'Hello jsliang', (err) => {
 })
 ```
 
-&emsp;值得注意的是，这样的写入，是清空原文件中的所有数据，然后添加 `Hello jsliang` 这句话。即：存在即覆盖，不存在即创建。  
+&emsp;值得注意的是，这样的写入，是清空原文件中的所有数据，然后添加 `Hello  ` 这句话。即：存在即覆盖，不存在即创建。  
 
 &emsp;有创建就有删除，感兴趣的可以使用 `fs.unlink` 进行文件的删除，再次不做过多讲解。
 
@@ -934,7 +934,7 @@ fs.appendFile('index.js', '这段文本是要追加的内容', (err) => {
 > index.js
 
 ```
-Hello jsliang这段文本是要追加的内容
+Hello  这段文本是要追加的内容
 ```
 
 <br>
@@ -973,7 +973,7 @@ fs.readdir('node_modules', (err, data) => {
     console.log(data);
     // Console：
     // 读取目录成功！
-    // [ '03_tool-multiply.js', 'jsliang-module' ]
+    // [ '03_tool-multiply.js', ' -module' ]
   }
 })
 ```
@@ -1000,7 +1000,7 @@ fs.readdir('node_modules', (err, data) => {
 let fs = require('fs');
 
 // 7. fs.rename 重命名
-fs.rename('index.js', 'jsliang.js', (err) => {
+fs.rename('index.js', ' .js', (err) => {
   if(err) {
     console.log(err);
     return false;
@@ -1018,7 +1018,7 @@ fs.rename('index.js', 'jsliang.js', (err) => {
 let fs = require('fs');
 
 // 7. fs.rename 重命名
-fs.rename('jsliang.js', 'node_modules/jsliang.js', (err) => {
+fs.rename(' .js', 'node_modules/ .js', (err) => {
   if(err) {
     console.log(err);
     return false;
@@ -2113,7 +2113,7 @@ console.error(new Error('新增执行失败：'));
 /**
  * Console：
  * Error: 新增执行失败：
-    at Object.<anonymous> (E:\MyWeb\jsliang-study\unfineshed-code\Test\index.js:3:15)
+    at Object.<anonymous> (E:\MyWeb\ -study\unfineshed-code\Test\index.js:3:15)
     at Module._compile (module.js:652:30)
     at Object.Module._extensions..js (module.js:663:10)
     at Module.load (module.js:565:32)
@@ -2133,7 +2133,7 @@ try {
 /**
  * Console：
  * ReferenceError: z is not defined
-    at Object.<anonymous> (E:\MyWeb\jsliang-study\unfineshed-code\Test\index.js:7:17)
+    at Object.<anonymous> (E:\MyWeb\ -study\unfineshed-code\Test\index.js:7:17)
     at Module._compile (module.js:652:30)
     at Object.Module._extensions..js (module.js:663:10)
     at Module.load (module.js:565:32)
@@ -2200,4 +2200,4 @@ try {
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.om/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。

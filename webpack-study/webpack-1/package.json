@@ -1,7 +1,7 @@
 {
   "name": "webpack-1",
   "version": "1.0.0",
-  "description": "jsliang webpack study",
+  "description": "  webpack study",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   "keywords": [
     "webpack-study"
   ],
-  "author": "jsliang",
+  "author": " ",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.12.0",

@@ -1,7 +1,7 @@
 使用 GitHub Pages 和 VuePress 搭建网站
 ===
 
-> Create by **jsliang** on **2018-10-20 10:34:39**  
+>  **2018-10-20 10:34:39**  
 > Recently revised in **2018-10-24 13:54:52**
 
 <br>
@@ -58,7 +58,7 @@
 * VuePress，是以 Vue 为驱动的主题系统的简约静态网站生成工具 balabala……它是咱尤雨溪大神折腾出来的一个工具，初始目的是为了方便他使用 Markdown 语法来写文档，然后生成 HTML 代码，部署到服务器上即可。在众多网友的修改下，它可以拿来写静态网站，也就是可以拿来发布我们编写的博文。[【VuePress 官网】](http://caibaojian.com/vuepress/)  
 
 &emsp;说到这里，小伙伴们大概懂了我们要讲什么了~  
-&emsp;但是，如果这只是一篇关于如何入门 GitHub Pages 和 VuePress 的文档，我会觉得毫无意义。所以，**jsliang** 希望这篇文章能够整合网上的 GitHub Pages 和 VuePress 资料，并且比它们丰富一丢丢，加入 **jsliang** 使用心得，让小伙伴们看完无需翻阅大量文章也能快速做好自己的个人文档库/博客。那样，我就心满意足了。因为……  
+&emsp;但是，如果这只是一篇关于如何入门 GitHub Pages 和 VuePress 的文档，我会觉得毫无意义。所以，** ** 希望这篇文章能够整合网上的 GitHub Pages 和 VuePress 资料，并且比它们丰富一丢丢，加入 ** ** 使用心得，让小伙伴们看完无需翻阅大量文章也能快速做好自己的个人文档库/博客。那样，我就心满意足了。因为……  
 
 &emsp;**不折腾的前端，跟咸鱼有什么区别！**  
 
@@ -69,7 +69,7 @@
 * Git
 * Markdown
 
-&emsp;如果你不是很熟悉上面的技术，**jsliang** 推荐你去百度下资料，先学习下这些技术，再回来继续学习。其中 GitHub 和 Git 的文章 **jsliang** 尚未整理，小伙伴只能去百度获取资料了，这里我提供一篇自己写的 Markdown文章：[地址](https://github.com/LiangJunrong/document-library/blob/master/other-library/shortArticle/markdown/markdown.md)。  
+&emsp;如果你不是很熟悉上面的技术，** ** 推荐你去百度下资料，先学习下这些技术，再回来继续学习。其中 GitHub 和 Git 的文章 ** ** 尚未整理，小伙伴只能去百度获取资料了，这里我提供一篇自己写的 Markdown文章：[地址](https://github.com/LiangJunrong/document-library/blob/master/other-library/shortArticle/markdown/markdown.md)。  
 &emsp;如果你熟悉且了解上面的技术，那么，让我们愉快地继续往下去折腾吧！
 
 <br>
@@ -274,9 +274,9 @@ Hello VuePress
 ```
 module.exports = {
     // 左上角标题
-    title: 'jsliang 的文档库',
+    title: '  的文档库',
     // 描述
-    description: '前端工程师 jsliang 的文档库',
+    description: '前端工程师   的文档库',
     // 头部部署，右上角小图标
     head: [
         // ico 配置
@@ -354,8 +354,8 @@ module.exports = {
 
 ```
 module.exports = {
-    title: 'jsliang 的文档库',
-    description: '前端工程师 jsliang 的文档库',
+    title: '  的文档库',
+    description: '前端工程师   的文档库',
     head: [
         // ...省略，配置代码同 3.2.2    
     ],
@@ -417,12 +417,12 @@ actionText: 皮皮虾 我们走 →
 actionLink: /index/
 features:
 - title: 装逼
-  details: 在这里，你可以看到 jsliang 在这里无限装逼，所以你可以尽情打脸。就算你懂，没关系，打了脸再说~
+  details: 在这里，你可以看到   在这里无限装逼，所以你可以尽情打脸。就算你懂，没关系，打了脸再说~
 - title: 搞笑
   details: 在这里，你可以获得各种学习欢乐，轻松进击前端编程。点滴进步，成就不一样的你。
 - title: 深沉
-  details: 在这里，你可以收获一个广州自身漂泊的人的情怀，感受在这个烦躁的社会 jsliang 如何安身立命。
-footer: jsliang 的文档库 | Copyright © 2018 不折腾的前端，和咸鱼有什么区别
+  details: 在这里，你可以收获一个广州自身漂泊的人的情怀，感受在这个烦躁的社会   如何安身立命。
+footer:   的文档库 | Copyright © 2018 不折腾的前端，和咸鱼有什么区别
 ---
 ```
 
@@ -450,4 +450,4 @@ footer: jsliang 的文档库 | Copyright © 2018 不折腾的前端，和咸鱼�
 
 <br>
 
-> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">**jsliang** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.com/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
+> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a xmlns:dct="http://purl.org/dc/terms/" property="dct:title">** ** 的文档库</a> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/LiangJunrong/document-library" property="cc:attributionName" rel="cc:attributionURL">梁峻荣</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/LiangJunrong/document-library" rel="dct:source">https://github.com/LiangJunrong/document-library</a>上的作品创作。<br />本许可协议授权之外的使用权限可以从 <a xmlns:cc="http://creativecommons.org/ns#" href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/" rel="cc:morePermissions">https://creativecommons.org/licenses/by-nc-sa/2.5/cn/</a> 处获得。
